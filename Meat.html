@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meats</title>
+    <link rel="stylesheet" href="Project.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top shadow">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size: 40px; margin-left: 20px; color: rgb(147, 226, 29); font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;">Fruitable</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#" style="color: rgb(147, 226, 29); font-size: 22px;">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size:22px; margin-left: 10px;">Shop</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size:22px; margin-left: 10px;">Shop Details</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false" style="font-size: 22px; margin-left: 10px;">
+                            Pages
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="cart.html" style="background-color:  rgb(147, 226, 29);">Card</a></li>
+                            <li><a class="dropdown-item" href="checkout.html">Check Out</a></li>
+                            <li><a class="dropdown-item" href="Testimonial.html">Testimonial</a></li>
+                            <li><a class="dropdown-item" href="404.html">404 Page</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size: 22px;margin-left: 10px;">Contact</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0" style="margin-right: 20px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size: 22px; padding: 0.5rem;">
+                            <img src="img/icons8-search-30.png" alt="Search" height="30px" width="30px" 
+                            style="border: 1px solid orange; border-radius: 50%; padding: 5px;">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size: 22px; padding: 0.5rem;">
+                            <img src="img/icons8-lock-30.png" alt="Lock" height="30px" width="30px">
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" style="font-size: 22px; padding: 0.5rem;">
+                            <img src="img/icons8-contact-30.png" alt="Contact" height="30px" width="30px">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+      </nav>
+      
+
+      <br> <br>
+
+    <div class="container">
+        <div class="row align-items-center">
+            <!-- Heading Section -->
+            <div class="col-12 col-md-6 mb-3 mb-md-0">
+                <h1 class="display-4" style="font-size: 50px;">
+                    Our Organic <br>Products
+                </h1>
+            </div>
+    
+            <!-- Navigation Section -->
+            <div class="col-12 col-md-6">
+                <ul class="nav justify-content-center justify-content-md-end flex-wrap">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html" style="border: 1px solid gray; color: gray; border-radius: 20px; margin: 5px; background-color: rgb(216, 213, 213);">
+                            All Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Vegetables1.html" style="border: 1px solid gray; color: gray; border-radius: 20px; margin: 5px; background-color: rgb(216, 213, 213);">
+                            Vegetables
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Fruit.html" style="border: 1px solid gray; background-color:  rgb(216, 213, 213); color: gray; border-radius: 20px; margin: 5px;">
+                            Fruits
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Bread.html" aria-disabled="true" style="border: 1px solid gray; background-color: rgb(216, 213, 213); color: gray; border-radius: 20px; margin: 5px;">
+                            Bread
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Meat.html" aria-disabled="true" style="border: 1px solid gray; background-color:orange; color: gray; border-radius: 20px; margin: 5px;">
+                            Meat
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+<br>
+<div class="container">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/chicken.jpeg" class="card-img-top" alt="Fruits">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Chicken</h5>
+                    <p class="card-text" style="text-align: center; font-size: 18px; color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/fish.jpeg" class="card-img-top" alt="Fruits">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Fish</h5>
+                    <p class="card-text" style="text-align: center; color:gray; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/mutton.jpeg" class="card-img-top" alt="Fruits">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Mutton</h5>
+                    <p class="card-text" style="text-align: center; color:gray; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/dry fish.jpeg" class="card-img-top" alt="Fruits" style="object-fit: cover;">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Dry Fish</h5>
+                    <p class="card-text" style="text-align: center; color:gray; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+    </div>
+</div> <br> 
+      
+<div class="container">
+    <div class="row">
+        <!-- Card 1 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/mutton1.jpeg" class="card-img-top" alt="Fruits">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Mutton Curry Cut</h5>
+                    <p class="card-text" style="text-align: center; font-size: 18px; color: gray;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+        <!-- Card 2 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/fish cut.jpeg" class="card-img-top" alt="Fruits">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Fish Curry Cut</h5>
+                    <p class="card-text" style="text-align: center; color:gray; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+        <!-- Card 3 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/mutton liver.jpeg" class="card-img-top" alt="Fruits">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Mutton Liver</h5>
+                    <p class="card-text" style="text-align: center; color:gray; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+        <!-- Card 4 -->
+        <div class="col-12 col-sm-6 col-md-3 mb-4">
+            <div class="card" style="border: 1px solid orange;">
+                <div class="position-relative">
+                    <img src="img/chicken gizzard.jpeg" class="card-img-top" alt="Fruits" style="object-fit: cover;">
+                    <div class="position-absolute top-0 start-0 text-white p-2" style="background-color: orange; margin: 10px; border-radius: 10px; width: 70px;">
+                        <h5 class="mb-0">Meat</h5>
+                    </div>
+                </div>
+                <div class="card-body">
+                    <h5 class="card-title text-center" style="color: rgb(70, 69, 69); font-size: 25px;">Chicken Gizzard</h5>
+                    <p class="card-text" style="text-align: center; color:gray; font-size: 18px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae est dignissimos ducimus voluptas deserunt sit!</p>
+                </div>
+                <h1 class="card-text price" style="font-size: 26px; margin-left: 20px;">$4.99/kg</h1>
+                <button class="btn btn-sm btn-outline-warning" type="submit" style="width: 150px; color:rgb(131, 207, 17); margin-left: 20px; font-size: 20px; border-radius: 20px 20px 20px 20px;">
+                  <img src="img/icons8-lock-30.png" alt="" height="20px" width="20px">  Add to cart
+                </button> <br>
+            </div>
+        </div>
+    </div>
+</div> <br> 
+      
+    
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
